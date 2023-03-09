@@ -38,10 +38,14 @@ export const call = (
     {}
   );
 
-  const { stdout, stderr, status } = spawnSync(input.path, args, {
-    env,
-    encoding: "utf-8",
-  });
+  const { stdout, stderr, status } = spawnSync(
+    input.path,
+    args.map((x) => x.toString()),
+    {
+      env,
+      encoding: "utf-8",
+    }
+  );
 
   const state: State = { ...predefinedState };
   const events: string[] = [];

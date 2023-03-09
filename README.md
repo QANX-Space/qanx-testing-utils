@@ -1,6 +1,6 @@
 # QANX Space | Testing utils
 
-> Contract is not run on the private blockchain and might function differently on-chain.
+> ⚠ Contract is not run on the private blockchain and might function differently on-chain.
 
 **Tool to easily test smart contracts written for QANX**
 

@@ -1,0 +1,22 @@
+{
+  "name": "qanx-testing-utils",
+  "version": "0.1.0",
+  "description": "Utility tool to simplify testing your QANX smart contracts.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "repository": "https://github.com/QANX-Space/qanx-testing-utils",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "QANX",
+    "smart",
+    "contract",
+    "testing"
+  ],
+  "author": "Wolftic",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

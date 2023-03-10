@@ -18,7 +18,7 @@ test("update username", () => {
     {
       path: "C://path_to_contract/contract",
       args: ["updateUser", "new_username"],
-      readSlots: [""],
+      readSlots: ["USERNAME"],
     },
     {
       USERNAME: "old_username",
